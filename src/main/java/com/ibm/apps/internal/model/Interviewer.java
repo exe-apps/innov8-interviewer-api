@@ -20,9 +20,15 @@ public class Interviewer {
 	
 	private String contactNumber;
 	
-	private boolean isCvReviewer;
+	private String email;
 	
-	private boolean isTechInterviewer;
+	private String skill;
+	
+	private String specialization;
+	
+	private boolean cvReviewer;
+	
+	private boolean bbsiInterviewer;
 	
 	private String daysAvailable;
 	
@@ -51,17 +57,12 @@ public class Interviewer {
 		this.contactNumber = contactNumber;
 	}
 	public boolean isCvReviewer() {
-		return isCvReviewer;
+		return cvReviewer;
 	}
-	public void setCvReviewer(boolean isCvReviewer) {
-		this.isCvReviewer = isCvReviewer;
+	public void setCvReviewer(boolean cvReviewer) {
+		this.cvReviewer = cvReviewer;
 	}
-	public boolean isTechInterviewer() {
-		return isTechInterviewer;
-	}
-	public void setTechInterviewer(boolean isTechInterviewer) {
-		this.isTechInterviewer = isTechInterviewer;
-	}
+	
 	public String getDaysAvailable() {
 		return daysAvailable;
 	}
@@ -85,5 +86,29 @@ public class Interviewer {
 	}
 	public void setImageUrl(String imageUrl) {
 		this.imageUrl = imageUrl;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getSkill() {
+		return skill;
+	}
+	public void setSkill(String skill) {
+		this.skill = skill;
+	}
+	public String getSpecialization() {
+		return specialization;
+	}
+	public void setSpecialization(String specialization) {
+		this.specialization = specialization;
+	}
+	public boolean isBbsiInterviewer() {
+		return bbsiInterviewer;
+	}
+	public void setBbsiInterviewer(boolean bbsiInterviewer) {
+		this.bbsiInterviewer = bbsiInterviewer;
 	}
 }

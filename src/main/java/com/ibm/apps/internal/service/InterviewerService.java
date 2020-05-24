@@ -37,8 +37,11 @@ public class InterviewerService {
 
 		interviewer.setName(updatedInterviewerInfo.getName());
 		interviewer.setContactNumber(updatedInterviewerInfo.getContactNumber());
+		interviewer.setEmail(updatedInterviewerInfo.getEmail());
+		interviewer.setSkill(updatedInterviewerInfo.getSkill());
+		interviewer.setSpecialization(updatedInterviewerInfo.getSpecialization());
 		interviewer.setCvReviewer(updatedInterviewerInfo.isCvReviewer());
-		interviewer.setTechInterviewer(updatedInterviewerInfo.isTechInterviewer());
+		interviewer.setBbsiInterviewer(updatedInterviewerInfo.isBbsiInterviewer());
 		interviewer.setDaysAvailable(updatedInterviewerInfo.getDaysAvailable());
 		interviewer.setTimeAvailable(updatedInterviewerInfo.getTimeAvailable());
 

@@ -17,7 +17,7 @@ import com.ibm.apps.internal.model.Interviewer;
 import com.ibm.apps.internal.service.InterviewerService;
 
 @RestController
-@RequestMapping("/interviewer-api")
+@RequestMapping("/v1/interviewer")
 public class InterviewerController {
 
 	@Autowired
